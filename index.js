@@ -5,13 +5,6 @@ const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-// const questionValidation = async (answers) => {
-//   if (answers === "") {
-//     console.log("An answer is required!");
-//     return;
-//   }
-// }
-
 
 // TODO: Create an array of questions for user input
 const questionArr = [
@@ -71,12 +64,7 @@ const questionArr = [
     name: 'email',
     message: 'What is your email address?'
   },]
-// ].then(answers => {
-//     //console.info('Answers', answers);
-//    const response = generateMarkdown(answers);
-//    console.log(answers);
-//    writeToFile('generateREADME.md', response)
-//   });
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

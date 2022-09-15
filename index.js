@@ -2,7 +2,15 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
-const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
+
+// const questionValidation = async (answers) => {
+//   if (answers === "") {
+//     console.log("An answer is required!");
+//     return;
+//   }
+// }
 
 
 // TODO: Create an array of questions for user input
@@ -72,7 +80,7 @@ const questionArr = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    writeFile(fileName, data, err => {
+    fs.writeFile(fileName, data, err => {
         if(err){
             throw err;
         }

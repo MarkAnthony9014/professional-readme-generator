@@ -1,7 +1,7 @@
-# hello
+# Professional README Generator
 
   
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
   ## Table Of Contents
@@ -23,27 +23,27 @@
 
 
   ## Description
-  hello
+  Generates efficiently made README files
 
   ## Installation
-  hello
+  Use NodeJS and Inquirer package
 
   ## Usage
-  hello
+  In CLI, run "node index.js" and answer prompts
 
   ## License
-  No License
+  MIT
 
   ## Contributing
-  hello
+  Mark
 
   ## Tests
-  hello
+  No tests have been run
 
   ## Questions
-  hello
+  
 
-  ## GitHub Username: hello
+  ## GitHub Username: Markanthony9014
 
-  ## Email Address: hello
+  ## Email Address: markanthony9014@gmail.com
 

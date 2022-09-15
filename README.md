@@ -1,3 +1,36 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description 
+
+- Creates a series of prompts that when answered, generates a new README file. 
+
+<br/>
+<br/>
+
+## Contributors 
+
+- Mark Martinez
+
+
+<br/>
+<br/>
+
+## Screenshot of the finished generated README file
+<br/>
+
+![Screenshot](./readmegeneratorscreenshot.JPG)
+
+<br/>
+<br/>
+
+## Designs for the future
+
+Implement a way to add screenshots.
+
+<br/>
+<br/>
+
+## GitHub Respository Link 
+
+[GitHub Link](https://github.com/MarkAnthony9014/professional-readme-generator)
+
